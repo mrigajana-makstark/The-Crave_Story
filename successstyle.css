@@ -1,0 +1,79 @@
+body{
+  background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%)
+}
+.card{
+  position: absolute;
+  width: 852px;
+  height: 476px;
+  left: 320px;
+  top: 132px;
+
+background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 42px;
+}
+.elipse
+{
+  position: absolute;
+width: 200px;
+height: 200px;
+left: 655px;
+top: 150px;
+
+background: radial-gradient(50% 50% at 50% 50%, #00FF38 0%, rgba(20, 255, 0, 0) 100%);
+filter: blur(4px);
+}
+.tick{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 655px;
+  top: 150px;
+}
+.msg1{
+  position: absolute;
+width: 862px;
+height: 83px;
+left: 462px;
+    top: 347px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size:48px;
+line-height: 83px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.msg2{
+  position: absolute;
+width: 614px;
+height: 108px;
+left: 469px;
+top: 478px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.msg3{
+  position: absolute;
+width: 614px;
+height: 108px;
+left: 469px;
+top: 510px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 45px;
+text-align: center;
+
+color: #FFFFFF;
+}

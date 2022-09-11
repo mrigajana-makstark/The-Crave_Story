@@ -1,2 +1,2 @@
-# The-Crave_Story
-An virtual food ordering webpage
+# The-crave-story
+An unser friendly way to order your favourite food

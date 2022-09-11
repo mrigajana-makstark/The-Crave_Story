@@ -1,0 +1,274 @@
+body{
+  background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%)
+}
+h1{
+  color: #FFF2F2;
+}
+.card{
+  position: absolute;
+width: 852px;
+height: 476px;
+left: 146px;
+top: 132px;
+
+background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 42px
+}
+.header{
+  position: absolute;
+width: 450px;
+height: 42px;
+left: 130px;
+top: 10px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 29px;
+line-height: 35px;
+
+color: #FFF2F2;
+}
+.img-card{
+  position: absolute;
+width: 300px;
+height: 60px;
+left: 160px;
+top: 70px;
+
+
+}
+
+.img::before{
+  background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+.list{
+  position: absolute;
+width: 370px;
+height: 300px;
+left: 950px;
+top: 0px;
+
+background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 42px
+}
+.name-text{
+  position: absolute;
+  width: 320px;
+  height: 22px;
+  left: 105px;
+  top: 170px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+}
+.cardnum-text{
+  position: absolute;
+width: 320px;
+height: 22px;
+left: 105px;
+top: 294px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+.exp{
+  position: absolute;
+width: 320px;
+height: 22px;
+left: 673px;
+top: 170px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+.cvv{
+  position: absolute;
+  width: 147px;
+  height: 36px;
+  left: 635px;
+  top: 375px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+}
+.name{
+  position: absolute;
+width: 500px;
+height: 74px;
+left: 65px;
+top: 204px;
+
+background: #FFEEEE;
+border-radius: 32px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 450;
+font-size: 26px;
+line-height: 32px;
+
+color: #199C65;
+}
+.cardnum{
+  position: absolute;
+width: 500px;
+height: 74px;
+left: 65px;
+top: 322px;
+
+background: #FFEEEE;
+border-radius: 32px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 450;
+font-size: 26px;
+line-height: 32px;
+
+color: #199C65;
+}
+.exph{
+  position: absolute;
+width: 183px;
+height: 74px;
+left: 640px;
+top: 204px;
+
+background: #FFEEEE;
+border-radius: 32px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+
+color: #199C65;
+}
+.cvvh{
+  position: absolute;
+width: 147px;
+height: 74px;
+left: 697.5px;
+top: 355px;
+
+background: #FFEEEE;
+border-radius: 32px 0px 0px 32px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+
+color: #199C65;
+}
+.checkout {
+
+   color: white;
+   position: absolute;
+width: 274px;
+height: 92px;
+left: 540px;
+top: 500px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+background: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #199C65 0%, #193262 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 42px;
+}
+.checkout:hover {
+   background-color: radial-gradient(46.95% 150.41% at 53.05% 57.14%, #193262 100% , #199C65 0%)
+}
+}
+h4{
+  position: absolute;
+width: 206px;
+height: 46px;
+left: 163px;
+top: -40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 46px;
+
+color: #ffffff;
+}
+.cart{
+  position: absolute;
+width: 206px;
+height: 46px;
+left: 163px;
+top: -40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 46px;
+
+color: #ffffff;
+}
+a{
+  top: 70px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+span.price {
+  left: 100px;
+  top: 70px;
+   float: right;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 37px;
+
+
+color: #FFFFFF;
+}
+.listing{
+  position: absolute;
+width: 331px;
+height: 246px;
+left: 20px;
+top: 40px;
+
+border-radius: 42px
+}
+@media (max-width: 800px) {
+.Fields {
+   flex-direction: column-reverse;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Crave Story Menu</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link rel="stylesheet" href="cartstylee.css" />
+</head>
+<body>
+<h1 style="text-align: center;">The Crave Story Checkout</h1>
+<div class="card">
+<h3 class="header">Payment via credit/debit card</h3>
+<img src="visa mc rupay.png" class="img-card" />
+<form action="success.html">
+<label class="name-text" for="cname">Name on Card</label>
+<input class="name" type="text" id="cname" name="cardname" />
+<label class="cardnum-text" for="ccnum">Card number</label>
+<input class="cardnum" type="text" id="ccnum" name="cardnumber" />
+<div class="Fields">
+<div>
+<label class="exp" for="expyear">Exp Year</label>
+<input class="exph" type="text" id="expyear" name="expyear" />
+</div>
+<div>
+<label class="cvv" for="cvv">CVV</label>
+<input  class="cvvh" type="password" id="cvv" name="cvv" />
+
+<input
+type="submit"
+value="Continue to checkout"
+class="checkout"
+/>
+</form>
+
+<div>
+<div class="list">
+
+
+
+<h4 class="cart">
+Cart <span class="text" ><b></b></span>
+</h4>
+<div class="listing">
+<p>
+<p>
+<a style="text-decoration: none;padding-left: 10px;" href="#">Royal Salad</a>
+<span class="price" style="padding-right: 10px;">₹100</span>
+</p>
+<p>
+<a style="text-decoration: none;padding-left: 10px;" href="#">Snow Smoothie</a>
+<span class="price" style="padding-right: 10px;">₹75</span>
+</p>
+<hr />
+<p>
+<a style="text-decoration: none;padding-left: 10px;" href="#">Discount</a>
+<span class="price" style="padding-right: 10px;">- ₹10</span>
+</p>
+<p>
+  <hr />
+<a style="text-decoration: none;padding-left: 10px;" href="#">Total </a><span class="price" style="padding-right: 10px;" ><b>₹165</b></span>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
